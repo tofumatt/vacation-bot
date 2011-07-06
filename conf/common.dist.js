@@ -14,6 +14,9 @@ exports.conf = {
 		server: 'irc.mozilla.org',
 		// ssl: true
 	},
+	// Number of chat messages that need to be sent for vacation-bot to say
+	// something in the channel.
+	message_count: 125,
 	// Phrases vacation-bot will randomly say.
 	phrases: [
 	    'Sure, I like Django, but Rails is better.',
