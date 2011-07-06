@@ -1,0 +1,28 @@
+{
+   "name": "vacation-bot",
+   "version": "0.1.0",
+   "description": "IRC bot to remind your coworkers and friends of you while you're away on vacation.",
+   "keywords": [
+       "IRC",
+       "funny",
+       "vacation" 
+   ],
+   "maintainers": [
+       {
+           "name": "Matthew Riley MacPherson",
+           "email": "matt@lonelyvegan.com",
+           "web": "http://lonelyvegan.com" 
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/tofumatt/vacation-bot" 
+       } 
+   ],
+   "dependencies": {
+       "coloured-log": "0.9.6",
+       "jerk": "1.1.15",
+       "node-config": "0.0.2"
+   }
+}
